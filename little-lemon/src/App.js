@@ -1,11 +1,14 @@
 import './App.css';
+import './Header.js';
 
 function App() {
   return (
-    <div className="App">
-      HomePage
-    </div>
-  );
+        <>
+        <Nav />
+        <Header />
+        <Main />
+        <Footer />
+        </>  );
 }
 
 export default App;
